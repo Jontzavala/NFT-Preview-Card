@@ -10,24 +10,29 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .image1 {
+      border-radius: 5px;
+    }
   </style>
 </head>
 <body>
-
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="card">
+    <img src="images/image-equilibrium.jpg" class="image1">
+    <div class="container">
+      <h2 class="nftName">Equilibrium #3429</h2>
+      <p class="description">Our Equilibrium collection promotes balance and calm.</p>
+      <img src="images/icon-ethereum.svg" class="image2"> 0.041 ETH</img>
+      <img src="images/icon-clock.svg" class="image3"> 3 days left</img>
+      <br>
+      <img src="images/image-avatar.png" class="image4"> Creation of Jules Wyvern </img>
+    </div>
   </div>
 </body>
 </html>
